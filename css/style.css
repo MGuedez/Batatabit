@@ -1,0 +1,43 @@
+:root {
+    /* box model */
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    /* fonts */
+    --main--font: "DM Sans", sans-serif;
+    --secondary--font: "Inter", sans-serif;
+    --weight--300: 300;
+    --weight--400: 400;
+    --weight--500: 500;
+    --weight--700: 700;
+
+    /* Visual styles */
+    --border-radius: 1.5rem;
+    --box-shadow: -10px 10px 20px -2px rgba(0,0,0,0.55);
+
+    /* color */
+    --main-color: #05060a;
+    --secondary-color:#1b2038;
+    --color-highlight: #f7931a;
+    --soft-orange:#fde0be;
+    --secondary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#101321;
+    --gray-color:#bababa;
+    --off-white:#faf8f7;
+    --just-white:#fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--main--font);
+}
