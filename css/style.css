@@ -41,3 +41,22 @@ html {
     font-size: 62.5%;
     font-family: var(--main--font);
 }
+
+/* ----------------------------------------HEADER---------------------------------------- */
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    clip-path: circle(77.5% at 31% 0);
+    background-color: var(--secondary-color);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+}
