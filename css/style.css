@@ -60,3 +60,13 @@ header {
     margin: 0 auto;
     padding: 3rem;
 }
+
+/* logo */
+.header__logo--container {
+    margin: 0;
+}
+
+.header__logo--container img {
+    width: 15rem;
+    height: auto;
+}
