@@ -16,6 +16,7 @@
 
     /* Visual styles */
     --border-radius: 1.5rem;
+    --gradients: linear-gradient(207.8deg, #2c3553 16.69%, #05060a 100%);
     --box-shadow: -10px 10px 20px -2px rgba(0,0,0,0.55);
 
     /* color */
@@ -44,8 +45,7 @@ html {
 
 /* ----------------------------------------HEADER---------------------------------------- */
 header {
-    clip-path: circle(77.5% at 31% 0);
-    background-color: var(--secondary-color);
+    background-image: var(--gradients);
 }
 
 .container {
@@ -56,7 +56,7 @@ header {
 
 header .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-auto-rows: auto;
     justify-content: center;
     align-items: center;
@@ -85,4 +85,27 @@ header .container {
     width: inherit;
     height: inherit;
     object-fit: cover;
+}
+
+/* text description header */
+.header__text--container {
+    justify-self: center;
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: auto;
+}
+
+.header__text--title {
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: var(--weight--700);
+    color: var(--just-white);
+}
+
+.header__text--description {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--color-highlight);
 }
