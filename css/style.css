@@ -275,6 +275,10 @@ main {
 }
 
 /* table commission*/
+.exchange__table--commission.table {
+    margin-bottom: 0;
+}
+
 .table__title.commission h3{
     color: #1A9AF7;
 }
@@ -294,3 +298,16 @@ main {
 .item:nth-of-type(7) .commission__icon {
     background-image: url(https://i.postimg.cc/XqL8BcK0/coinext.png);
 }
+
+/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+.product__section .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    grid-row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* product dividing line */
