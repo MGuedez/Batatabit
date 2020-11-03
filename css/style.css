@@ -171,7 +171,7 @@ main {
     color: var(--secondary-blue);
 }
 
-/* table */
+/* table coin*/
 .exchange__table--container {
     width: 100%;
 }
@@ -217,7 +217,8 @@ main {
     justify-self: start;
 }
 
-.coin__icon {
+.coin__icon,
+.commission__icon {
     display: inline-block;
     width: 4rem;
     height: 4rem;
@@ -273,4 +274,23 @@ main {
     background-image: url(https://i.postimg.cc/QdRCQS53/trending-up-1.png);
 }
 
+/* table commission*/
+.table__title.commission h3{
+    color: #1A9AF7;
+}
 
+.item:nth-of-type(1) .commission__icon {
+    background-image: url(https://i.postimg.cc/m2NxV0jb/bitrade.png);
+}
+
+.item:nth-of-type(3) .commission__icon {
+    background-image: url(https://i.postimg.cc/FKYBtqyk/bitpreco.png);
+}
+
+.item:nth-of-type(5) .commission__icon {
+    background-image: url(https://i.postimg.cc/RZFPf8bp/Novadax.png);
+}
+
+.item:nth-of-type(7) .commission__icon {
+    background-image: url(https://i.postimg.cc/XqL8BcK0/coinext.png);
+}
