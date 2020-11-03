@@ -16,6 +16,7 @@
 
     /* Visual styles */
     --border-radius: 1.5rem;
+    --border-radius-button: 3rem;
     --gradients: linear-gradient(207.8deg, #2c3553 16.69%, #05060a 100%);
     --box-shadow: -10px 10px 20px -2px rgba(0,0,0,0.55);
 
@@ -90,8 +91,6 @@ header .container {
 /* text description header */
 .header__text--container {
     justify-self: center;
-    width: 90%;
-    min-width: 28.8rem;
     max-width: 90rem;
     height: auto;
 }
@@ -105,7 +104,30 @@ header .container {
 }
 
 .header__text--description {
+    margin-bottom: 3rem;
     font-size: 1.6rem;
     line-height: 1.8rem;
     color: var(--color-highlight);
+}
+
+/* header button */
+.header__button {
+    justify-self: center;
+    display: block;
+    padding: 1rem;
+    width: 25rem;
+    font-size: 1.6rem;
+    font-weight: var(--weight--700);
+    text-decoration: none;
+    border: 2px solid var(--color-highlight);
+    border-radius: var(--border-radius-button);
+    color: var(--just-white);
+    background-color: transparent;
+    box-shadow: var(--box-shadow);
+}
+
+.header__button .fas {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    vertical-align: middle;
 }
