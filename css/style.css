@@ -17,11 +17,11 @@
     /* Visual styles */
     --border-radius: 1.5rem;
     --border-radius-button: 3rem;
-    --gradients: linear-gradient(207.8deg, #2c3553 16.69%, #05060a 100%);
+    --gradients: linear-gradient(207.8deg, #2c3553 16.69%, #0a0c16 100%);
     --box-shadow: -10px 10px 20px -2px rgba(0,0,0,0.55);
 
     /* color */
-    --main-color: #05060a;
+    --main-color: #0a0c16;
     --secondary-color:#1b2038;
     --color-highlight: #f7931a;
     --soft-orange:#fde0be;
@@ -44,11 +44,11 @@ html {
     font-family: var(--main--font);
 }
 
-/* ----------------------------------------HEADER---------------------------------------- */
-header {
+body {
     background-image: var(--gradients);
 }
 
+/* ----------------------------------------HEADER---------------------------------------- */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -75,17 +75,13 @@ header .container {
 }
 
 /* background header */
-.header__background--container {
-    justify-self: center;
-    margin: 0;
-    width: 30rem;
-    height: auto;
-}
-
-.header__background--container img {
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
+.header__background {
+    width: 100%;
+    height: 25rem;
+    background-image: url(https://i.postimg.cc/Y9bfFf1d/cryptocurrency.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* text description header */
@@ -130,4 +126,47 @@ header .container {
     padding-left: 1rem;
     font-size: 1.6rem;
     vertical-align: middle;
+}
+
+/* ----------------------------------------MAIN---------------------------------------- */
+main {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+.exchange__section .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    grid-row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* background */
+.exchange__background {
+    width: 100%;
+    height: 22rem;
+    background-image: url(https://i.postimg.cc/8PVVt9JQ/Bitcoin.png);
+    background-repeat: no-repeat;
+    background-size: 22rem;
+    background-position: center;
+}
+
+/* text description */
+.title {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    font-weight: var(--weight--700);
+    color: var(--just-white);
+}
+
+.description {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--color-highlight);
 }
