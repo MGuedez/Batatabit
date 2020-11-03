@@ -16,6 +16,8 @@
 
     /* Visual styles */
     --border-radius: 1.5rem;
+    --border-radius-button: 3rem;
+    --gradients: linear-gradient(207.8deg, #2c3553 16.69%, #05060a 100%);
     --box-shadow: -10px 10px 20px -2px rgba(0,0,0,0.55);
 
     /* color */
@@ -40,4 +42,92 @@
 html {
     font-size: 62.5%;
     font-family: var(--main--font);
+}
+
+/* ----------------------------------------HEADER---------------------------------------- */
+header {
+    background-image: var(--gradients);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* logo header*/
+.header__logo--container {
+    margin: 0;
+}
+
+.header__logo--container img {
+    width: 15rem;
+    height: auto;
+}
+
+/* background header */
+.header__background--container {
+    justify-self: center;
+    margin: 0;
+    width: 30rem;
+    height: auto;
+}
+
+.header__background--container img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+/* text description header */
+.header__text--container {
+    justify-self: center;
+    max-width: 90rem;
+    height: auto;
+}
+
+.header__text--title {
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: var(--weight--700);
+    color: var(--just-white);
+}
+
+.header__text--description {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--color-highlight);
+}
+
+/* header button */
+.header__button {
+    justify-self: center;
+    display: block;
+    padding: 1rem;
+    width: 25rem;
+    font-size: 1.6rem;
+    font-weight: var(--weight--700);
+    text-decoration: none;
+    border: 2px solid var(--color-highlight);
+    border-radius: var(--border-radius-button);
+    color: var(--just-white);
+    background-color: transparent;
+    box-shadow: var(--box-shadow);
+}
+
+.header__button .fas {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    vertical-align: middle;
 }
