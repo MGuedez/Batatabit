@@ -103,7 +103,7 @@ header .container {
     margin-bottom: 3rem;
     font-size: 1.6rem;
     line-height: 1.8rem;
-    color: var(--color-highlight);
+    color: var(--secondary-blue);
 }
 
 /* header button */
@@ -311,3 +311,43 @@ main {
 }
 
 /* product dividing line */
+.product__dividing--line {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.product__logo--container {
+    position: absolute;
+	left: calc(50% - 2.5rem);
+    width: 5rem;
+    height: 5rem;
+    border-radius: .3rem;
+    background-image: linear-gradient(207.8deg, #2c3553 16.69%, #1b2038 100%);;
+    box-shadow: var(--box-shadow);
+}
+
+.product__batata-logo {
+    display: block;
+    height: 5rem;
+    background: url(https://i.postimg.cc/5NCbXZWT/batata.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3rem 2rem;
+}
+
+.product__dividing--line::before,
+.product__dividing--line::after {
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: .2rem;
+    background-color: var(--secondary-color);
+}
+
+.product__dividing--line::after {
+    left: 0;
+}
