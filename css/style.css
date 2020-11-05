@@ -485,9 +485,64 @@ main {
     max-width: 30rem;
     height: auto;
     margin: 2.5rem auto;
-    padding: 3rem 2rem;
+    padding: 4rem 3rem;
     overflow: hidden;
     border-radius: var(--border-radius);
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
+}
+
+/* text card*/
+.plans__card--description-text {
+    margin-bottom: 3rem;
+}
+
+.plan__card--description.pro {
+    color: #38ef7d;
+}
+
+.plan__card--description.premium {
+    color: var(--color-highlight);
+}
+
+.plan__card--price {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    line-height: 2.6rem;
+    font-weight: var(--weight--700);
+    color: var(--just-white);
+}
+
+.plan__card--price span {
+    font-size: 2rem;
+}
+
+.plan__card--benefits {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    list-style: none;
+    text-align: start;
+    color: var(--gray-color);
+}
+
+.plan__card--benefits li {
+    margin-bottom: .6rem;
+}
+
+.fa-asterisk {
+    font-size: .8rem;
+    padding-right: .5rem;
+    vertical-align: super;
+}
+
+.plan__card--benefits.basic .fa-asterisk {
+    color: var(--secondary-blue);
+}
+
+.plan__card--benefits.pro .fa-asterisk {
+    color: #38ef7d;
+}
+
+.plan__card--benefits.premium .fa-asterisk {
+    color: var(--color-highlight);
 }
