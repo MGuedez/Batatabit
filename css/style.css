@@ -482,11 +482,12 @@ main {
 }
 
 .plans__card {
+    position: relative;
     width: 100%;
     max-width: 30rem;
     height: auto;
     margin: 2.5rem auto;
-    padding: 4rem 3rem;
+    padding: 4.5rem 3rem;
     overflow: hidden;
     border-radius: var(--border-radius);
     background-color: var(--secondary-color);
@@ -498,6 +499,14 @@ main {
     margin-bottom: 3rem;
 }
 
+.plan__card--title {
+    margin-bottom: .5rem;
+}
+
+.plan__card--description {
+    margin-bottom: 2rem;
+}
+
 .plan__card--description.pro {
     color: var(--green-color);
 }
@@ -507,7 +516,7 @@ main {
 }
 
 .plan__card--price {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: 4rem;
     line-height: 2.6rem;
     font-weight: var(--weight--700);
@@ -591,4 +600,18 @@ main {
 
 .plan__card--btn.premium .fa-angle-right {
     color: var(--color-highlight);
+}
+
+/* recommended */
+.recommended {
+    position: absolute;
+    width: 14rem;
+    top: 30px;
+    right: -32px;
+    padding: .2rem 0;
+    transform: rotate(45deg);
+    font-size: 1.2rem;
+    font-weight: var(--weight--700);
+    color: #f7f7f7;
+    background-color: var(--color-highlight);
 }
