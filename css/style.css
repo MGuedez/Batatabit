@@ -29,6 +29,7 @@
     --soft-blue:#E7F5FF;
     --warm-black:#101321;
     --gray-color:#bababa;
+    --green-color: #38ef7d;
     --off-white:#faf8f7;
     --just-white:#fff;
 }
@@ -463,4 +464,169 @@ main {
 
 .background__text--description {
     color: rgba(255,255,255,.8);
+}
+
+/* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
+.plans__section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* card */
+.plans__card--container {
+    justify-self: center;
+}
+
+.plans__card {
+    position: relative;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin: 2.5rem auto;
+    padding: 4.5rem 3rem;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.plans__card.basic {
+    background-image: url(https://i.postimg.cc/hPV8yLKm/dolar.png);
+}
+
+.plans__card.pro {
+    background-image: url(https://i.postimg.cc/8kZgF62h/monedas-1.png);
+}
+
+.plans__card.premium {
+    background-image: url(https://i.postimg.cc/sxX8PTk5/money-bag.png);
+}
+
+/* text card*/
+.plans__card--description-text {
+    margin-bottom: 3rem;
+}
+
+.plan__card--title {
+    margin-bottom: .5rem;
+}
+
+.plan__card--description {
+    margin-bottom: 2rem;
+}
+
+.plan__card--description.pro {
+    color: var(--green-color);
+}
+
+.plan__card--description.premium {
+    color: var(--color-highlight);
+}
+
+.plan__card--price {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 2.6rem;
+    font-weight: var(--weight--700);
+    color: var(--just-white);
+}
+
+.plan__card--price span {
+    font-size: 2rem;
+}
+
+.plan__card--benefits {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    list-style: none;
+    text-align: start;
+    color: var(--gray-color);
+}
+
+.plan__card--benefits li {
+    margin-bottom: .6rem;
+}
+
+.fa-asterisk {
+    font-size: .8rem;
+    padding-right: .5rem;
+    vertical-align: super;
+}
+
+.plan__card--benefits.basic .fa-asterisk {
+    color: var(--secondary-blue);
+}
+
+.plan__card--benefits.pro .fa-asterisk {
+    color: var(--green-color);
+}
+
+.plan__card--benefits.premium .fa-asterisk {
+    color: var(--color-highlight);
+}
+
+/* button */
+.plan__card--btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: var(--weight--700);
+    text-decoration: none;
+    border-radius: var(--border-radius-button);
+    color: var(--just-white);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.header__button .fa-arrow-alt-circle-right {
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+
+.plan__card--btn.basic {
+    border: 2px solid var(--secondary-blue);
+}
+
+.plan__card--btn.pro {
+    border: 2px solid var(--green-color);
+}
+
+.plan__card--btn.premium {
+    border: 2px solid var(--color-highlight);
+}
+
+.plan__card--btn.basic .fa-angle-right {
+    color: var(--secondary-blue);
+}
+
+.plan__card--btn.pro .fa-angle-right {
+    color: var(--green-color);
+}
+
+.plan__card--btn.premium .fa-angle-right {
+    color: var(--color-highlight);
+}
+
+/* recommended */
+.recommended {
+    position: absolute;
+    width: 14rem;
+    top: 30px;
+    right: -32px;
+    padding: .2rem 0;
+    transform: rotate(45deg);
+    font-size: 1.2rem;
+    font-weight: var(--weight--700);
+    color: #f7f7f7;
+    background-color: var(--color-highlight);
 }
