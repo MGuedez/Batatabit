@@ -50,7 +50,7 @@ body {
 
 /* ----------------------------------------HEADER---------------------------------------- */
 .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding: 3rem;
 }
@@ -370,6 +370,10 @@ main {
     box-shadow: var(--box-shadow);
 }
 
+.product__card:nth-child(4) {
+    margin-bottom: 4rem;
+}
+
 /* text description card */
 .product__card h3 {
     font-size: 1.8rem;
@@ -378,7 +382,7 @@ main {
 }
 
 .product__card p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--gray-color);
 }
 
@@ -386,7 +390,7 @@ main {
 .icon__card {
     position: absolute;
     top: -7rem;
-    left: 7rem;
+    left: 5rem;
     display: inline-block;
     width: 16rem;
     height: 16rem;
@@ -411,4 +415,52 @@ main {
 
 .product__card .circle {
     background-image: url(https://i.postimg.cc/59zhyrT5/confiable2.png);
+}
+
+/* ------------------------------------BACKGROUND SECTION------------------------------------ */
+.background__section {
+    margin-bottom: 4rem;
+}
+
+.background__section .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 32rem;
+    height: 50vh;
+    background-image: url(https://i.postimg.cc/tCLjjyZh/17266.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background__section .container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, #131625, rgba(18, 21, 36,.5), rgba(18, 21, 36,.5), #0c0e1a);
+}
+
+/* title */
+.background__text--title,
+.background__text--description {
+    position: relative;
+    z-index: 1;
+}
+.background__text--title {
+    padding-top: 3rem;
+    font-size: 3rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+    text-shadow: 4px 3px 2px rgba(26, 154, 247, 1);
+    /* text-shadow: 4px 3px 2px rgba(247, 147, 26, 1); */
+}
+
+.background__text--description {
+    color: rgba(255,255,255,.8);
 }
