@@ -466,3 +466,28 @@ main {
 }
 
 /* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
+.plans__section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* card */
+.plans__card--container {
+    justify-self: center;
+}
+
+.plans__card {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin: 2.5rem auto;
+    padding: 3rem 2rem;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
