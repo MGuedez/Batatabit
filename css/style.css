@@ -490,8 +490,23 @@ main {
     padding: 4.5rem 3rem;
     overflow: hidden;
     border-radius: var(--border-radius);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
+}
+
+.plans__card.basic {
+    background-image: url(https://i.postimg.cc/hPV8yLKm/dolar.png);
+}
+
+.plans__card.pro {
+    background-image: url(https://i.postimg.cc/8kZgF62h/monedas-1.png);
+}
+
+.plans__card.premium {
+    background-image: url(https://i.postimg.cc/sxX8PTk5/money-bag.png);
 }
 
 /* text card*/
@@ -569,7 +584,7 @@ main {
     text-decoration: none;
     border-radius: var(--border-radius-button);
     color: var(--just-white);
-    background-color: transparent;
+    background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
 }
 
