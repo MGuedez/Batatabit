@@ -29,6 +29,7 @@
     --soft-blue:#E7F5FF;
     --warm-black:#101321;
     --gray-color:#bababa;
+    --green-color: #38ef7d;
     --off-white:#faf8f7;
     --just-white:#fff;
 }
@@ -498,7 +499,7 @@ main {
 }
 
 .plan__card--description.pro {
-    color: #38ef7d;
+    color: var(--green-color);
 }
 
 .plan__card--description.premium {
@@ -540,9 +541,54 @@ main {
 }
 
 .plan__card--benefits.pro .fa-asterisk {
-    color: #38ef7d;
+    color: var(--green-color);
 }
 
 .plan__card--benefits.premium .fa-asterisk {
+    color: var(--color-highlight);
+}
+
+/* button */
+.plan__card--btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: var(--weight--700);
+    text-decoration: none;
+    border-radius: var(--border-radius-button);
+    color: var(--just-white);
+    background-color: transparent;
+    box-shadow: var(--box-shadow);
+}
+
+.header__button .fa-arrow-alt-circle-right {
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+
+.plan__card--btn.basic {
+    border: 2px solid var(--secondary-blue);
+}
+
+.plan__card--btn.pro {
+    border: 2px solid var(--green-color);
+}
+
+.plan__card--btn.premium {
+    border: 2px solid var(--color-highlight);
+}
+
+.plan__card--btn.basic .fa-angle-right {
+    color: var(--secondary-blue);
+}
+
+.plan__card--btn.pro .fa-angle-right {
+    color: var(--green-color);
+}
+
+.plan__card--btn.premium .fa-angle-right {
     color: var(--color-highlight);
 }
