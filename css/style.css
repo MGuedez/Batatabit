@@ -297,7 +297,7 @@ main {
     background-image: url(https://i.postimg.cc/k5vRVBpb/coinext.png);
 }
 
-/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+/* ------------------------------------PRODUCT DETAIL SECTION------------------------------------ */
 .product__section .container {
     display: grid;
     grid-template-columns: 100%;
@@ -362,7 +362,7 @@ main {
     height: auto;
     margin: 0 auto;
     margin-bottom: 10rem;
-    padding: 10rem 2rem 3.5rem;
+    padding: 6rem 2rem 3.5rem;
     border-radius: var(--border-radius);
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
@@ -387,32 +387,32 @@ main {
 /* icons */
 .icon__card {
     position: absolute;
-    top: -7rem;
-    left: 5rem;
+    top: -4rem;
+    left: 9rem;
     display: inline-block;
-    width: 16rem;
-    height: 16rem;
+    width: 8rem;
+    height: 8rem;
     margin-bottom: 2rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: drop-shadow(.75rem .75rem .9rem #080808);
+    filter: drop-shadow(.7px .7px 2px #777);
 }
 
-.product__card .clock {
-    background-image: url(https://i.postimg.cc/xCYNCVJ4/api.png);
+.product__card .api {
+    background-image: url(https://i.postimg.cc/5Nz5Kftk/api.png);
 }
 
-.product__card .eye {
-    background-image: url(https://i.postimg.cc/8Ck8580K/tasas.png);
+.product__card .rate {
+    background-image: url(https://i.postimg.cc/SR6L3LhR/tasas.png);
 }
 
-.product__card .dolar {
-    background-image: url(https://i.postimg.cc/T2jnGZn5/comparar.png);
+.product__card .compare {
+    background-image: url(https://i.postimg.cc/TPKVfv6Z/comparar.png);
 }
 
-.product__card .circle {
-    background-image: url(https://i.postimg.cc/59zhyrT5/confiable2.png);
+.product__card .trustworthy {
+    background-image: url(https://i.postimg.cc/65znZp6k/confiable.png);
 }
 
 /* ------------------------------------BACKGROUND SECTION------------------------------------ */
