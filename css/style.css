@@ -68,7 +68,7 @@ header .container {
 }
 
 .header__logo--container img {
-    width: 15rem;
+    width: 16rem;
     height: auto;
 }
 
@@ -639,6 +639,51 @@ main {
     background-color: var(--color-highlight);
 }
 
+/* ----------------------------------------------QUESTIONS---------------------------------------------- */
+.questions__section {
+    margin-bottom: 2rem;
+}
+
+.questions__section .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* text description */
+.questions__section .title {
+    margin-bottom: 3rem;
+}
+
+/* questions card */
+.questions__card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.questions__card .description {
+    margin: 0;
+    padding-left: 1.5rem;
+    text-align: start;
+}
+
+/* icon */
+.fa-plus-circle {
+    font-size: 2rem;
+    color: var(--color-highlight);
+}
+
 /* ----------------------------------------------FOOTER---------------------------------------------- */
 footer .container {
     display: flex;
@@ -646,6 +691,7 @@ footer .container {
     height: 15rem;
     background-image: url(https://i.postimg.cc/TP3SGhNQ/body-bg.png), linear-gradient(#f7931a, #d77907);
 }
+
 
 .social__networks,
 .logo__footer {
