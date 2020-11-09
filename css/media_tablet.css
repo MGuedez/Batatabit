@@ -47,12 +47,15 @@
 }
 
 .exchange__background {
-    height: 28rem;
-    background-size: 28rem;
-    background-image: url(https://i.postimg.cc/wBNYmZG1/Bitcoin.png);
+    height: 32rem;
+    background-size: 32rem;
 }
 
 /* text description */
+.exchange__text--container {
+    text-align: start;
+}
+
 .title {
     font-size: 2.6rem;
     line-height: 3rem;
@@ -79,6 +82,10 @@
 }
 
 /* ------------------------------------PRODUCT DETAIL SECTION------------------------------------ */
+.product__section .container {
+    padding-top: 0;
+}
+
 .product__card--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -93,8 +100,9 @@
 
 /* ------------------------------------BACKGROUND SECTION------------------------------------ */
 .background__section .container {
-    height: 40vh;
+    height: 60vh;
 }
+
 /* text description */
 .background__text--title {
     font-size: 4rem;
@@ -128,4 +136,9 @@
 
 .plans__card:nth-child(3) {
     margin-bottom: auto;
+}
+
+/* ----------------------------------------------QUESTIONS---------------------------------------------- */
+.questions__section .container {
+    padding-top: 0;
 }
