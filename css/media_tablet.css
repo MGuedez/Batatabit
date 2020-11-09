@@ -24,7 +24,6 @@
 .header__text--description {
     font-size: 2rem;
     line-height: 2rem;
-    color: var(--secondary-gray);
 }
 
 /* header button */
@@ -37,4 +36,44 @@
     padding-left: 1rem;
     font-size: 1.6rem;
     vertical-align: middle;
+}
+
+/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+/* background */
+.exchange__section .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    padding-top: 0;
+}
+
+.exchange__background {
+    height: 28rem;
+    background-size: 28rem;
+    background-image: url(https://i.postimg.cc/wBNYmZG1/Bitcoin.png);
+}
+
+/* text description */
+.title {
+    font-size: 2.6rem;
+    line-height: 3rem;
+}
+
+.description {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: var(--secondary-gray);
+}
+
+/* table */
+.exchange__table--container {
+    grid-column-start: span 2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table {
+    margin: 2rem 0 0;
 }
