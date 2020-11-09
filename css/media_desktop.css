@@ -85,3 +85,9 @@ header .container {
     font-size: 2.5rem;
     line-height: 3rem;
 }
+
+/* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
+.plan__card--benefits {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}

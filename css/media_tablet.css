@@ -120,10 +120,6 @@
 }
 
 /* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
-.plans__section .container{
-    padding-top: 0;
-}
-
 /* card */
 .plans__card--container {
     display: flex;
@@ -138,15 +134,10 @@
     margin: 0 4rem 3rem 0;
 }
 
-.plans__card:nth-child(3) {
-    margin-bottom: auto;
-}
-
 /* ----------------------------------------------QUESTIONS---------------------------------------------- */
 .questions__section .container {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    padding-top: 0;
 }
 
 /* text description */
