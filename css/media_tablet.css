@@ -90,3 +90,19 @@
 .product__card:nth-child(4) {
     margin-bottom: 0;
 }
+
+/* ------------------------------------BACKGROUND SECTION------------------------------------ */
+.background__section .container {
+    height: 40vh;
+}
+/* text description */
+.background__text--title {
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+
+.background__text--description {
+    font-size: 2rem;
+    line-height: 2rem;
+    opacity: .85;
+}
