@@ -375,6 +375,7 @@ main {
 
 /* text description card */
 .product__card h3 {
+    margin-bottom: 1rem;
     font-size: 1.8rem;
     line-height: 2.5rem;
     color: var(--just-white);

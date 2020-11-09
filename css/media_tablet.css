@@ -90,7 +90,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
-    grid-column-gap: 3rem;
+    grid-gap: 8rem 3rem;
+}
+
+.product__card {
+    margin-bottom: 0;
 }
 
 .product__card:nth-child(3),
