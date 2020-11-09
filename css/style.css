@@ -148,10 +148,11 @@ main {
 .exchange__background {
     width: 100%;
     height: 22rem;
-    background-image: url(https://i.postimg.cc/8PVVt9JQ/Bitcoin.png);
+    background-image: url(https://i.postimg.cc/Xv8H6pY6/bitcoin-rate.png);
     background-repeat: no-repeat;
     background-size: 22rem;
     background-position: center;
+    filter: drop-shadow(-5.3px 2.7px 2px #000);
 }
 
 /* text description */
@@ -474,7 +475,7 @@ main {
 }
 
 /* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
-.plans__section {
+.plans__section .container{
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: auto;
@@ -511,6 +512,7 @@ main {
 
 .plans__card.basic {
     background-image: url(https://i.postimg.cc/MpR6sHVr/dollar-1.png);
+    margin-top: 0;
 }
 
 .plans__card.pro {
@@ -668,7 +670,7 @@ main {
 
 /* questions card */
 .questions__card--container {
-    justify-self: center;;
+    justify-self: center;
 }
 
 .questions__card {
