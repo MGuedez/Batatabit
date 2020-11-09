@@ -106,3 +106,26 @@
     line-height: 2rem;
     opacity: .85;
 }
+
+/* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
+.plans__section .container{
+    padding-top: 0;
+}
+
+/* card */
+.plans__card--container {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans__card {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin: 0 4rem 3rem 0;
+}
+
+.plans__card:nth-child(3) {
+    margin-bottom: auto;
+}

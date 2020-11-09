@@ -474,7 +474,7 @@ main {
 }
 
 /* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
-.plans__section {
+.plans__section .container{
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: auto;
