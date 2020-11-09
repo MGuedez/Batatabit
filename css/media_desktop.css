@@ -1,0 +1,29 @@
+/* ----------------------------------------HEADER---------------------------------------- */
+
+header .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+/* logo header*/
+.header__logo--container {
+    grid-column-start: span 2;
+}
+
+/* background header */
+.header__background {
+    grid-column: 2 / 3;
+    height: 37rem;
+}
+
+/* text description */
+.header__text--container {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    text-align: start;
+}
+
+/* header button */
+.header__button {
+    grid-column-start: span 2;
+}
