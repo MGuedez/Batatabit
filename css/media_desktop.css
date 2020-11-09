@@ -27,3 +27,36 @@ header .container {
 .header__button {
     grid-column-start: span 2;
 }
+
+/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 2rem;
+}
+
+/* table */
+.table {
+    width: 50rem;
+    padding:  5rem 3.5rem 6rem 4rem;
+    font-size: 2rem;
+}
+
+.exchange__table--coin {
+    margin-left: 4rem;
+}
+
+.exchange__table--commission {
+    margin-right: 4rem;
+}
+
+/* text description table */
+.table__title h3{
+    font-size: 2.5rem;
+}
+
+.table__title p {
+    font-size: 1.6rem;
+}
