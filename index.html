@@ -12,15 +12,206 @@
     <link rel="shortcut icon" href="https://i.postimg.cc/CLzhVv7P/batata.png" type="image/x-icon">
     <!-- styles -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media_tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/media_desktop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="./css/media_large_desktop.css" media="(min-width: 1200px)">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="container">
+            <figure class="header__logo--container">
+                <img src="https://i.postimg.cc/2jsRRhsw/logo-1.png" alt="Logo de la página">
+            </figure>
+            <div class="header__background"></div>
+            <section class="header__text--container">
+                <h1 class="header__text--title">La próxima revolución en el intercambio de criptomonedas.</h1>
+                <p class="header__text--description">Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+            </section>
+            <a href="#plans__section" class="header__button">Conoce Nuestros Planes <i class="fas fa-angle-down"></i></a>
+        </div>
+    </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="exchange__section">
+            <div class="container">
+                <div class="exchange__background"></div>
+                <div class="exchange__text--container">
+                    <h2 class="exchange__text--title title">Visibilizamos todas las tasas de cambio</h2>
+                    <p class="exchange__text--description description">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+                </div>
+                <section class="exchange__table--container">
+                    <div class="exchange__table--coin table">
+                        <span class="table__title coin">
+                            <h3>Monedas</h3>
+                            <p><strong>Actualizado:</strong> 19 Julio 23:45</p>
+                        </span>
+                        <div class="item"><span class="coin__icon"></span><span class="text__item">Bitcoin</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 1.96</span><span class="arrow__icon"></span></div>
+                        <div class="item"><span class="coin__icon"></span><span class="text__item">Ethereum</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 0.07</span><span class="arrow__icon"></span></div>
+                        <div class="item"><span class="coin__icon"></span><span class="text__item">Ripple</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 2.15</span><span class="arrow__icon"></span></div>
+                        <div class="item"><span class="coin__icon"></span><span class="text__item">Dash</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 4.96</span><span class="arrow__icon"></span></div>
+                    </div>
+                    <div class="exchange__table--commission table">
+                        <span class="table__title commission">
+                            <h3>Monedas</h3>
+                            <p><strong>Actualizado:</strong> 19 Julio 23:45</p>
+                        </span>
+                        <div class="item"><span class="commission__icon"></span><span class="text__item">Bitrade</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 1.96</span></div>
+                        <div class="item"><span class="commission__icon"></span><span class="text__item">Bitpreco</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 0.07</span></div>
+                        <div class="item"><span class="commission__icon"></span><span class="text__item">Novadax</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 2.15</span></div>
+                        <div class="item"><span class="commission__icon"></span><span class="text__item">Coinext</span></div>
+                        <div class="price__item"><span class="text__item--price">$ 4.96</span></div>
+                    </div>
+            </div>
+        </section>
+        <section class="product__section">
+            <div class="container">
+                <div class="product__dividing--line">
+                    <span class="product__logo--container">
+                        <span class="product__batata-logo"></span>
+                    </span>
+                </div>
+                <div class="product__text--container">
+                    <h2 class="product__text--title title">Creamos un producto sin comparación</h2>
+                    <p class="product__text--description description">Confiable y diseñado para su uso diario.</p>
+                </div>
+                <section class="product__card--container">
+                    <article class="product__card">
+                        <span class="icon__card api"></span>
+                        <h3>Tiempo real</h3>
+                        <p>Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                    </article>
+
+                    <article class="product__card">
+                        <span class="icon__card rate"></span>
+                        <h3>No hay tasas escondidas</h3>
+                        <p>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                    </article>
+
+                    <article class="product__card">
+                        <span class="icon__card compare"></span>
+                        <h3>Compara monedas</h3>
+                        <p>No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                    </article>
+
+                    <article class="product__card">
+                        <span class="icon__card trustworthy"></span>
+                        <h3>Información confiable</h3>
+                        <p>Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+        <section class="background__section">
+            <span class="icon__background"></span>
+            <div class="container">
+                <div class="background__text--container">
+                    <h2 class="background__text--title title">Conocelo hoy</h2>
+                    <p class="background__text--description description">Las criptomonedas más importantes al alcance de tu mano sin complicaciones</p>
+                </div>
+            </div>
+        </section>
+        <section class="plans__section">
+            <div class="container">
+                <div class="plans__text--container">
+                    <h2 class="plans__text--title title">Escoge el plan que mejor se ajuste a ti</h2>
+                    <p class="plans__text--description description">Cualquier plan te da acceso completo a nuestra plataforma.</p>
+                </div>
+                <section class="plans__card--container">
+                    <article class="plans__card basic">
+                        <div class="plans__card--description-text">
+                            <h2 class="plan__card--title title">Plan Básico</h2>
+                            <p class="plan__card--description description basic">Para empezar</p>
+                            <p class="plan__card--price"><span>$</span>29</p>
+                            <ul class="plan__card--benefits basic">
+                                <li><i class="fas fa-asterisk"></i>Acceso limitado a la información.</li>
+                                <li><i class="fas fa-asterisk"></i>Retiro con tarjeta de cualquier banco (Mastercard, Visa, UnionPay).</li>
+                                <li><i class="fas fa-asterisk"></i>Transferencias limitadas con 5% de comisión.</li>
+                                <li><i class="fas fa-asterisk"></i>Límite mensual $300.</li>
+                                <li><i class="fas fa-asterisk"></i>No dispone de soporte al cliente</li>
+                            </ul>
+                        </div>
+                        <button class="plan__card--btn basic">Quiero este <i class="fas fa-angle-right"></i></i></button>
+                    </article>
+                    <article class="plans__card pro">
+                        <div class="plans__card--description-text">
+                            <h2 class="plan__card--title title">Plan Pro</h2>
+                            <p class="plan__card--description description pro">Todo un profesional</p>
+                            <p class="plan__card--price"><span>$</span>59</p>
+                            <ul class="plan__card--benefits pro">
+                                <li><i class="fas fa-asterisk"></i>Acceso ilimitado a la información.</li>
+                                <li><i class="fas fa-asterisk"></i>Retiro con tarjeta de cualquier banco (Mastercard, Visa, UnionPay).</li>
+                                <li><i class="fas fa-asterisk"></i>Transferencias ilimitadas con 2% de comisión.</li>
+                                <li><i class="fas fa-asterisk"></i>Soporte prioritario al cliente.</li>
+                                <li><i class="fas fa-asterisk"></i>Límite mensual $1000.</li>
+                            </ul>
+                        </div>
+                        <button class="plan__card--btn pro">Quiero este <i class="fas fa-angle-right"></i></button>
+                    </article>
+                    <article class="plans__card premium">
+                        <div class="recommended">Recomendado</div>
+                        <div class="plans__card--description-text">
+                            <h2 class="plan__card--title title">Plan Premium</h2>
+                            <p class="plan__card--description description premium">Plan con todo incluido</p>
+                            <p class="plan__card--price"><span>$</span>99</p>
+                            <ul class="plan__card--benefits premium">
+                                <li><i class="fas fa-asterisk"></i>Acceso exclusivo a la información.</li>
+                                <li><i class="fas fa-asterisk"></i>Retiro con tarjeta de cualquier banco (Mastercard, Visa, UnionPay).</li>
+                                <li><i class="fas fa-asterisk"></i>Transferencias ilimitadas con 0% de comisión.</li>
+                                <li><i class="fas fa-asterisk"></i>Soporte personal al cliente.</li>
+                                <li><i class="fas fa-asterisk"></i>Límite mensual $5000.</li>
+                            </ul>
+                        </div>
+                        <button class="plan__card--btn premium">Quiero este <i class="fas fa-angle-right"></i></i></button>
+                    </article>
+                </section>
+            </div>
+        </section>
+        <section class="questions__section">
+            <div class="container">
+                <div class="questions__text--container">
+                    <h2 class="questions__text--title title">Preguntas frecuentes</h2>
+                </div>
+                <section class="questions__card--container">
+                    <article class="questions__card">
+                        <i class="fas fa-plus-circle"></i>
+                        <p class="description">¿Cómo comprar criptomonedas?</p>
+                    </article>
+                    <article class="questions__card">
+                        <i class="fas fa-plus-circle"></i>
+                        <p class="description">¿Cómo vender criptomonedas?</p>
+                    </article>
+                    <article class="questions__card">
+                        <i class="fas fa-plus-circle"></i>
+                        <p class="description">¿Cúal es el plan más recomendado?</p>
+                    </article>
+                    <article class="questions__card">
+                        <i class="fas fa-plus-circle"></i>
+                        <p class="description">Ventajas de comprar con Batatabit</p>
+                    </article>
+                </section>
+                <span class="background__questions"></span>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <section class="social__networks">
+                <ul>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Crunchbase</a></li>
+                    <li><a href="">Hackernews</a></li>
+                </ul>
+            </section>
+            <section class="logo__footer">
+                <img src="https://i.postimg.cc/J7pGRNr2/Group-18.png" alt="logo de batatabit 2020">
+            </section>
+        </div>
+    </footer>
 </body>
 </html>

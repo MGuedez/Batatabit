@@ -1,0 +1,109 @@
+/* ----------------------------------------HEADER---------------------------------------- */
+
+header .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+/* logo header*/
+.header__logo--container {
+    grid-column-start: span 2;
+}
+
+/* background header */
+.header__background {
+    grid-column: 2 / 3;
+    height: 37rem;
+}
+
+/* text description */
+.header__text--container {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    text-align: start;
+}
+
+/* header button */
+.header__button {
+    grid-column-start: span 2;
+}
+
+/* ------------------------------------EXCHANGE SECTION------------------------------------ */
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 2rem;
+}
+
+/* table */
+.table {
+    width: 50rem;
+    padding:  5rem 3.5rem 6rem 4rem;
+    font-size: 2rem;
+}
+
+.exchange__table--coin {
+    margin-left: 4rem;
+}
+
+.exchange__table--commission {
+    margin-right: 4rem;
+}
+
+/* text description table */
+.table__title h3{
+    font-size: 2.5rem;
+}
+
+.table__title p {
+    font-size: 1.6rem;
+}
+
+/* ------------------------------------PRODUCT DETAIL SECTION------------------------------------ */
+/* text description card */
+.product__card h3 {
+    font-size: 2.2rem;
+}
+
+.product__card p {
+    font-size: 1.7rem;
+}
+
+/* ------------------------------------BACKGROUND SECTION------------------------------------ */
+.background__section .container {
+    height: 70vh;
+}
+
+/* text description */
+.background__text--title {
+    font-size: 4.5rem;
+}
+
+.background__text--description {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+/* ------------------------------------PLANS AND SERVICES SECTION------------------------------------ */
+.plan__card--benefits {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+/* ----------------------------------------------FOOTER---------------------------------------------- */
+.social__networks ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.social__networks ul li {
+    padding-right: 3rem;
+}
+
+.logo__footer {
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
