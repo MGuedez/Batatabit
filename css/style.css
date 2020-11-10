@@ -674,7 +674,6 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 30rem;
     height: auto;
     margin-bottom: 2.5rem;
     padding: 1.5rem 2rem;

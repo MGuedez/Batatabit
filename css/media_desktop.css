@@ -91,3 +91,19 @@ header .container {
     font-size: 1.6rem;
     line-height: 2rem;
 }
+
+/* ----------------------------------------------FOOTER---------------------------------------------- */
+.social__networks ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.social__networks ul li {
+    padding-right: 3rem;
+}
+
+.logo__footer {
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
